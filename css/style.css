@@ -3,12 +3,15 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: "Whitney Book", sans-serif;
+}
 
 .container {
   max-width: 1180px;
-  margin: 0 auto;
 }
 .head-top {
+  max-width: 100%;
   min-height: 80px;
 
   display: flex;
@@ -25,7 +28,9 @@
   font-size: 2rem;
   color: blue;
 }
-
+.bold {
+  font-size: 1.5rem;
+}
 .link-list {
   list-style: none;
 }
@@ -38,6 +43,18 @@
 }
 .btn-1 {
   background-color: rgba(73, 131, 255, 0.871);
-  padding: 5px;
+  padding: 5px 10px;
   border: none;
+}
+.main-bg {
+  background-color: cyan;
+}
+
+.container-big {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  font-size: 2rem;
 }
