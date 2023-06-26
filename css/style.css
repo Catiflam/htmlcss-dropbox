@@ -12,7 +12,7 @@ body {
 }
 .head-top {
   max-width: 100%;
-  min-height: 80px;
+  min-height: 60px;
 
   display: flex;
   justify-content: space-between;
@@ -23,6 +23,10 @@ body {
 .item-icon {
   font-size: 1.5rem;
   font-style: bold;
+}
+
+.icon {
+  font-size: 2rem;
 }
 .big {
   font-size: 2rem;
@@ -45,23 +49,29 @@ body {
   background-color: rgba(73, 131, 255, 0.871);
   padding: 5px 10px;
   border: none;
+  color: white;
 }
 .main-bg {
   background-color: cyan;
 }
 
 .container-big {
-  max-width: 800px;
+  max-width: 1008px;
   margin-left: auto;
   margin-right: auto;
 }
 .title {
   font-size: 2rem;
   margin-bottom: 28px;
+  margin-left: 55px;
+  padding-top: 50px;
 }
 .title-block {
+  height: 388px;
+  width: 850px;
   display: flex;
   align-items: flex-start;
+  justify-content: space-between;
   padding: 20px;
 }
 .pt-1 {
