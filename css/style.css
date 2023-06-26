@@ -52,7 +52,7 @@ body {
   color: white;
 }
 .main-bg {
-  background-color: cyan;
+  background-color: rgb(93, 189, 213);
 }
 
 .container-big {
@@ -78,7 +78,7 @@ body {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  margin: 20px;
+  margin: 8px;
 }
 img {
   width: 150%;
