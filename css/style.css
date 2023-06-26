@@ -57,4 +57,13 @@ body {
 }
 .title {
   font-size: 2rem;
+  margin-bottom: 28px;
+}
+.title-block {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+}
+img {
+  width: 100%;
 }
