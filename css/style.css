@@ -53,6 +53,7 @@ body {
 h2 {
 	font-size: 2rem;
 	margin-bottom: 85px;
+	font-weight: bold;
 }
 h3 {
 	margin-top: 23px;
@@ -214,7 +215,6 @@ img {
 }
 .col {
 	width: 30%;
-	border: 1px solid black;
 	padding: 20px;
 }
 .col img {
