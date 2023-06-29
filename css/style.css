@@ -229,3 +229,24 @@ img {
 	flex-wrap: wrap;
 	gap: 30px;
 }
+.jumbo-box {
+	width: 500px;
+	margin-top: 100px;
+	text-align: center;
+}
+.flag img {
+	max-width: 100%;
+}
+
+.p1 {
+	background-color: aquamarine;
+}
+.p2 {
+	background-color: brown;
+}
+.p3 {
+	background-color: blue;
+}
+.p4 {
+	background-color: tomato;
+}
