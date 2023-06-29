@@ -146,7 +146,6 @@ img {
 .page {
 	flex-wrap: wrap;
 	gap: 50px;
-	height: 100%;
 }
 .page .col {
 	width: calc((100% - 100px) / 3);
@@ -212,4 +211,21 @@ img {
 	flex-direction: column;
 	gap: 20px;
 	align-items: flex-start;
+}
+.col {
+	width: 30%;
+	border: 1px solid black;
+	padding: 20px;
+}
+.col img {
+	max-width: 100%;
+}
+.row .col {
+	display: flex;
+	gap: 20px;
+}
+.jumbo-card {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
 }
