@@ -57,6 +57,7 @@ h2 {
 .icon {
 	font-size: 2rem;
 }
+
 .big {
 	font-size: 2rem;
 	color: blue;
@@ -107,6 +108,9 @@ h2 {
 }
 img {
 	width: 150%;
+}
+.list-item img {
+	width: 110%;
 }
 .circle {
 	width: 20px;
@@ -185,5 +189,11 @@ img {
 	padding-bottom: 5px;
 	padding-top: 63px;
 }
-.body__100 {
+.body-1 {
+	margin: 31px 39px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 20px;
 }
