@@ -54,6 +54,9 @@ h2 {
 	font-size: 2rem;
 	margin-bottom: 85px;
 }
+h3 {
+	margin-top: 23px;
+}
 .icon {
 	font-size: 2rem;
 }
@@ -75,11 +78,18 @@ h2 {
 	padding: 5px 5px;
 	font-size: 1.1rem;
 }
+.button {
+	margin-bottom: 30px;
+}
 .btn-1 {
 	background-color: rgba(73, 131, 255, 0.871);
 	padding: 5px 10px;
 	border: none;
 	color: white;
+}
+.btn-2 {
+	background-color: white;
+	padding: 10px;
 }
 .main-bg {
 	background-color: #b4d0e7;
@@ -130,15 +140,13 @@ img {
 	margin-left: 60px;
 }
 
-.button {
-	margin-bottom: 30px;
-}
 .direction {
 	flex-direction: column;
 }
 .page {
 	flex-wrap: wrap;
 	gap: 50px;
+	height: 100%;
 }
 .page .col {
 	width: calc((100% - 100px) / 3);
@@ -196,4 +204,12 @@ img {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	gap: 20px;
+}
+.col-2 {
+	margin-left: 222px;
+	margin-top: 46px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: flex-start;
 }
