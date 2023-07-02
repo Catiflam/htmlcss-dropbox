@@ -229,13 +229,27 @@ img {
 	flex-wrap: wrap;
 	gap: 30px;
 }
-.jumbo-box {
-	width: 500px;
-	margin-top: 100px;
-	text-align: center;
-}
+
 .flag img {
 	max-width: 100%;
+	aspect-ratio: 1 /1;
+	display: block;
+}
+.flag {
+	height: 50%;
+	width: 50%;
+}
+.section-bottom {
+	margin-top: 100px;
+	width: calc(100% / 3);
+	height: calc(100vw / 3);
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.separete {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .p1 {
