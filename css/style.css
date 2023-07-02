@@ -50,6 +50,9 @@ body {
 	max-width: 20%;
 	display: inline-block;
 }
+ul {
+	list-style: none;
+}
 h2 {
 	font-size: 2rem;
 	margin-bottom: 85px;
@@ -279,7 +282,7 @@ img {
 }
 
 .bar-xl {
-	width: 30px;
+	width: 100%;
 	border: 1px solid lightgray;
 }
 .fix {
@@ -287,5 +290,21 @@ img {
 	justify-content: space-between;
 	align-items: flex-start;
 }
-/* .bg{
-	#b4d0e7 */
+.bg {
+	background-color: #b4d0e7;
+	max-height: 300px;
+}
+.pad {
+	padding: 20px;
+}
+.fix-ceck {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.bg-n {
+	background-color: black;
+	color: white;
+}
+.fix-list {
+}
