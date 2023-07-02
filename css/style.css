@@ -234,7 +234,20 @@ img {
 	max-width: 100%;
 	aspect-ratio: 1 /1;
 	display: block;
+	padding: 40px;
 }
+.box-green {
+	padding: 20px;
+	background-color: rgb(16, 182, 16);
+}
+.box-grey .bar {
+	margin-left: 30px;
+	display: inline-block;
+}
+.box-grey p {
+	margin-left: 30px;
+}
+
 .flag {
 	height: 50%;
 	width: 50%;
