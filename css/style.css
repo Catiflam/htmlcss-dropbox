@@ -277,3 +277,15 @@ img {
 .p4 {
 	background-color: tomato;
 }
+
+.bar-xl {
+	width: 30px;
+	border: 1px solid lightgray;
+}
+.fix {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+/* .bg{
+	#b4d0e7 */
